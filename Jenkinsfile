@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'docker-salve' }
+  agent any
   
   environment {
     DOCKERHUB_CREDENTIALS = credentials('DOCKER_CRDS')
