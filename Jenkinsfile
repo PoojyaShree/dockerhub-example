@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t gaddamnarendra/maven:4 .'
+        sh 'docker build -t gaddamnarendra/maven:latest .'
       }
     }
     stage('Login') {
